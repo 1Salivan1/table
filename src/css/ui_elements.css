@@ -1,0 +1,148 @@
+/* LABELS */
+
+.ui-label-light {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ui-label-light__span {
+  text-transform: uppercase;
+  color: #64697c;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+/* SELECTOR */
+
+.ui-select-wrap {
+  position: relative;
+}
+
+.ui-select {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 16px;
+  border-radius: 8px;
+  border: 1px solid #e1ddf4;
+  cursor: pointer;
+}
+
+.ui-select-img {
+  margin-right: 8px;
+}
+
+.ui-select-name {
+  margin-right: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #5137e0;
+}
+
+.ui-select-options {
+  position: absolute;
+  border-radius: 8px;
+  border: 1px solid #e1ddf4;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.ui-select-option {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.ui-select-option:hover {
+  transition: 0.1s;
+  background-color: #dddddd;
+}
+
+/* BUTTONS */
+
+.ui-btn {
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.ui-btn:not(:last-child) {
+  margin-right: 12px;
+}
+
+.ui-btn-purple {
+  background-color: #5137e0;
+  border: none;
+  color: white;
+}
+
+.ui-btn-white {
+  background-color: transparent;
+  border: 1px solid #e1ddf4;
+  color: #5137e0;
+}
+
+.ui-btn__img {
+  margin-right: 8px;
+}
+
+.ui-simple-btn {
+  border: none;
+  font-weight: 500;
+  border-radius: 50px;
+  border: 1px solid #e1ddf4;
+  padding: 13px 19px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.simple-btn-active {
+  background-color: #5137e0;
+  color: white;
+}
+
+.ui-simple-btn:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* FILTER */
+
+.ui-filter {
+  display: flex;
+  align-items: center;
+  padding: 13px 16px;
+  border: 1px solid #e1ddf4;
+  border-radius: 8px;
+}
+
+.ui-filter:not(:last-child) {
+  margin-right: 8px;
+}
+
+.ui-filter-img {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.ui-filter-type {
+  font-weight: 500;
+  font-size: 16px;
+  color: #64697c;
+}
+
+.ui-filter-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5137e0;
+}
+
+.ui-filter-separation {
+  margin: 0 8px;
+  width: 2px;
+  background-color: #e1ddf4;
+  height: 18px;
+}

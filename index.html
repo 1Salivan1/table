@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="./src/css/normalize.css" />
+    <link rel="stylesheet" href="./src//css//global.css" />
+    <link rel="stylesheet" href="./src/css/ui_elements.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="block">
+        <div class="content-wrap">
+          <div class="block-top">
+            <div class="header-info">
+              <div class="top-header">
+                <img
+                  class="top-header__img"
+                  src="./src/assets/icons/list_alt.svg"
+                  alt="list_icon"
+                />
+                <h1>Заказы в работе</h1>
+              </div>
+              <p>3 заказа прямо сейчас в работе</p>
+            </div>
+            <div class="custom-input">
+              <img
+                class="custom-input__icon"
+                src="./src/assets/icons/search.svg"
+                alt="search_icon"
+              />
+              <input
+                class="custom-input__input"
+                type="text"
+                placeholder="Поиск заказов по названию..."
+              />
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="content-wrap">
+          <div class="filters-block">
+            <div class="filter">
+              <div class="ui-label-light">
+                <span class="ui-label-light__span">Социальная сеть</span>
+                <img src="./src/assets/icons/help.svg" alt="help_icon" />
+              </div>
+              <div class="ui-select-wrap">
+                <div class="ui-select">
+                  <img
+                    class="ui-select-img"
+                    src="./src/assets/icons/cloud.svg"
+                    alt="cloud_image"
+                  />
+                  <span class="ui-select-name">Социальная сеть</span>
+                  <img
+                    src="./src/assets/icons/expand_more.svg"
+                    alt="expand_more_icon"
+                  />
+                </div>
+                <div class="ui-select-options hidden">
+                  <ul>
+                    <li class="ui-select-option">TikTok</li>
+                    <li class="ui-select-option">Instagram</li>
+                    <li class="ui-select-option">YouTube</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="ui-label-light">
+                <span class="ui-label-light__span">Номер заказа</span>
+                <img src="./src/assets/icons/help.svg" alt="help_icon" />
+              </div>
+              <div class="ui-select-wrap">
+                <div class="ui-select">
+                  <img
+                    class="ui-select-img"
+                    src="./src/assets/icons/numbers.svg"
+                    alt="numbers_image"
+                  />
+                  <span class="ui-select-name">Номер заказа</span>
+                  <img
+                    src="./src/assets/icons/expand_more.svg"
+                    alt="expand_more_icon"
+                  />
+                </div>
+                <div class="ui-select-options hidden">
+                  <ul>
+                    <li class="ui-select-option">№83571</li>
+                    <li class="ui-select-option">№83571</li>
+                    <li class="ui-select-option">№83571</li>
+                    <li class="ui-select-option">№83571</li>
+                    <li class="ui-select-option">№83571</li>
+                    <li class="ui-select-option">№83571</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="ui-label-light">
+                <span class="ui-label-light__span">Название</span>
+                <img src="./src/assets/icons/help.svg" alt="help_icon" />
+              </div>
+              <div class="ui-select-wrap">
+                <div class="ui-select">
+                  <img
+                    class="ui-select-img"
+                    src="./src/assets/icons/sort_by_alpha.svg"
+                    alt="sort_by_alpha_image"
+                  />
+                  <span class="ui-select-name">По убыванию</span>
+                  <img
+                    src="./src/assets/icons/expand_more.svg"
+                    alt="expand_more_icon"
+                  />
+                </div>
+                <div class="ui-select-options hidden">
+                  <ul>
+                    <li class="ui-select-option">Название</li>
+                    <li class="ui-select-option">Название</li>
+                    <li class="ui-select-option">Название</li>
+                    <li class="ui-select-option">Название</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="ui-label-light">
+                <span class="ui-label-light__span">Дата добавления</span>
+                <img src="./src/assets/icons/help.svg" alt="help_icon" />
+              </div>
+              <div class="ui-select-wrap">
+                <div class="ui-select">
+                  <img
+                    class="ui-select-img"
+                    src="./src/assets/icons/event.svg"
+                    alt="event_image"
+                  />
+                  <span class="ui-select-name">Дата добавления</span>
+                  <img
+                    src="./src/assets/icons/expand_more.svg"
+                    alt="expand_more_icon"
+                  />
+                </div>
+                <div class="ui-select-options hidden">
+                  <ul>
+                    <li class="ui-select-option">13.12.2024</li>
+                    <li class="ui-select-option">13.12.2024</li>
+                    <li class="ui-select-option">13.12.2024</li>
+                    <li class="ui-select-option">13.12.2024</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="ui-label-light">
+                <span class="ui-label-light__span">Дата дедлайн</span>
+                <img src="./src/assets/icons/help.svg" alt="help_icon" />
+              </div>
+              <div class="ui-select-wrap">
+                <div class="ui-select">
+                  <img
+                    class="ui-select-img"
+                    src="./src/assets/icons/event.svg"
+                    alt="event_image"
+                  />
+                  <span class="ui-select-name">Дата дедлайн</span>
+                  <img
+                    src="./src/assets/icons/expand_more.svg"
+                    alt="expand_more_icon"
+                  />
+                </div>
+                <div class="ui-select-options hidden">
+                  <ul>
+                    <li class="ui-select-option">25.12.2024</li>
+                    <li class="ui-select-option">25.12.2024</li>
+                    <li class="ui-select-option">25.12.2024</li>
+                    <li class="ui-select-option">25.12.2024</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="filter">
+              <div class="ui-label-light">
+                <span class="ui-label-light__span">Бюджет</span>
+                <img src="./src/assets/icons/help.svg" alt="help_icon" />
+              </div>
+              <div class="ui-select-wrap">
+                <div class="ui-select">
+                  <img
+                    class="ui-select-img"
+                    src="./src/assets/icons/attach_money.svg"
+                    alt="attach_money_image"
+                  />
+                  <span class="ui-select-name">Бюджет</span>
+                  <img
+                    src="./src/assets/icons/expand_more.svg"
+                    alt="expand_more_icon"
+                  />
+                </div>
+                <div class="ui-select-options hidden">
+                  <ul>
+                    <li class="ui-select-option">500$</li>
+                    <li class="ui-select-option">500$</li>
+                    <li class="ui-select-option">500$</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-block">
+            <div class="button-block-left">
+              <button class="ui-btn ui-btn-purple">
+                <img
+                  class="ui-btn__img"
+                  src="./src/assets/icons/quick_reference_all.svg"
+                  alt="quick_reference_all"
+                />
+                Найти заказы по фильтрам
+              </button>
+              <button class="ui-btn ui-btn-white">
+                <img
+                  class="ui-btn__img"
+                  src="./src/assets/icons/restart_alt.svg"
+                  alt="quick_reference_all"
+                />
+                Сбросить фильтры
+              </button>
+            </div>
+            <div class="button-block-right">
+              <span class="sort-type-label">Сортировать по:</span>
+              <button class="ui-simple-btn">Дата добавления</button>
+              <button class="ui-simple-btn">Дата дедлайн</button>
+              <button class="ui-simple-btn">Бюджет</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block">
+        <div class="table">
+          <!-- TABLE HEADER START -->
+          <div class="table-header table-cell">
+            <span class="table-header-title">Сеть</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Название</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Инфлюенсер</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Рейтинг</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Дата</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Дедлайн</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Бюджет</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <div class="table-header table-cell">
+            <span class="table-header-title">Действие</span>
+            <img src="./src/assets/icons/help.svg" alt="help_icon" />
+          </div>
+          <!-- TABLE HEADER END -->
+
+          <!-- TABLE SECTIONS START -->
+          <div class="social-network-section table-cell">
+            <div class="social-block">
+              <img src="./src/assets/images/tiktok-logo.png" alt="tik-tok" />
+            </div>
+          </div>
+          <div class="order-description table-cell">
+            <h2 class="order-description__header">
+              Сделать видео для конечного потребителя
+            </h2>
+            <p class="order-description__description">
+              Здесь часть описания из заказа
+            </p>
+            <div class="order-number-block">
+              <img
+                class="order-number-icon"
+                src="./src/assets/icons/draft_orders.svg"
+                alt="draft_orders_icon"
+              />
+              <span class="order-number">Заказ №83571</span>
+            </div>
+          </div>
+          <div class="influencer-block table-cell">
+            <div class="avatar-block">
+              <img
+                class="influencer-avatar"
+                src="./src/assets/images/Avatar.png"
+                alt="avatar"
+              />
+              <img
+                class="influencer-avatar-social"
+                src="./src/assets/images/tiktok-frame.png"
+                alt="tik-tok"
+              />
+            </div>
+            <div class="influencer-block-info">
+              <div class="influencer-name">
+                <h1 class="influencer-name__header">Karamefa</h1>
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/mdi_check-decagram-green.png"
+                  alt="mark"
+                />
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/mdi_check-decagram-purple.png"
+                  alt="mark"
+                />
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/flag-of-france.png"
+                  alt="france-flag"
+                />
+              </div>
+              <p>Лайфстайл, бьюти, психология...</p>
+            </div>
+          </div>
+          <div class="rating table-cell">
+            <span class="rating-span">Рейтинг</span>
+            <div class="rating-percent">
+              <img
+                class="rating-percent__icon"
+                src="./src/assets/icons/good-rating.svg"
+                alt="good-rating"
+              />
+              <h2>10</h2>
+            </div>
+            <div class="rating-bar">
+              <div class="bar">
+                <div class="bar-fill-good"></div>
+              </div>
+            </div>
+            <div class="members">
+              <img
+                class="members__icon"
+                src="./src/assets/icons/group.svg"
+                alt="group"
+              />
+              <span class="members__count">223</span>
+            </div>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Добавлено</span>
+            <h2 class="date-time">13.12.2024</h2>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Дедлайн</span>
+            <h2 class="date-time">25.12.2024</h2>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Бюджет</span>
+            <h2 class="date-time">$ 500</h2>
+          </div>
+          <div class="buttons table-cell">
+            <button class="ui-btn ui-btn-purple table-btn">
+              <img
+                class="ui-btn__img"
+                src="./src/assets/icons/visibility.svg"
+                alt="visibility-icon"
+              />
+              Посмотреть
+            </button>
+            <button class="ui-btn ui-btn-white table-btn">
+              <img
+                class="ui-btn__img"
+                src="./src/assets/icons/chat_bubble.svg"
+                alt="chat-icon"
+              />
+              Написать
+            </button>
+          </div>
+          <!-- TABLE SECTION END -->
+
+          <!-- TABLE SECTIONS START -->
+          <div class="social-network-section table-cell">
+            <div class="social-block">
+              <img src="./src/assets/images/tiktok-logo.png" alt="tik-tok" />
+            </div>
+          </div>
+          <div class="order-description table-cell">
+            <h2 class="order-description__header">
+              Сделать видео для конечного потребителя
+            </h2>
+            <p class="order-description__description">
+              Здесь часть описания из заказа
+            </p>
+            <div class="order-number-block">
+              <img
+                class="order-number-icon"
+                src="./src/assets/icons/draft_orders.svg"
+                alt="draft_orders_icon"
+              />
+              <span class="order-number">Заказ №83571</span>
+            </div>
+          </div>
+          <div class="influencer-block table-cell">
+            <div class="avatar-block">
+              <img
+                class="influencer-avatar"
+                src="./src/assets/images/Avatar.png"
+                alt="avatar"
+              />
+              <img
+                class="influencer-avatar-social"
+                src="./src/assets/images/tiktok-frame.png"
+                alt="tik-tok"
+              />
+            </div>
+            <div class="influencer-block-info">
+              <div class="influencer-name">
+                <h1 class="influencer-name__header">Karamefa</h1>
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/mdi_check-decagram-green.png"
+                  alt="mark"
+                />
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/mdi_check-decagram-purple.png"
+                  alt="mark"
+                />
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/flag-of-france.png"
+                  alt="france-flag"
+                />
+              </div>
+              <p>Лайфстайл, бьюти, психология...</p>
+            </div>
+          </div>
+          <div class="rating table-cell">
+            <span class="rating-span">Рейтинг</span>
+            <div class="rating-percent">
+              <img
+                class="rating-percent__icon"
+                src="./src/assets/icons/mid-rating.svg"
+                alt="mid-rating"
+              />
+              <h2>5</h2>
+            </div>
+            <div class="rating-bar">
+              <div class="bar">
+                <div class="bar-fill-mid"></div>
+              </div>
+            </div>
+            <div class="members">
+              <img
+                class="members__icon"
+                src="./src/assets/icons/group.svg"
+                alt="group"
+              />
+              <span class="members__count">102</span>
+            </div>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Добавлено</span>
+            <h2 class="date-time">13.12.2024</h2>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Дедлайн</span>
+            <h2 class="date-time">25.12.2024</h2>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Бюджет</span>
+            <h2 class="date-time">$ 500</h2>
+          </div>
+          <div class="buttons table-cell">
+            <button class="ui-btn ui-btn-purple table-btn">
+              <img
+                class="ui-btn__img"
+                src="./src/assets/icons/visibility.svg"
+                alt="visibility-icon"
+              />
+              Посмотреть
+            </button>
+            <button class="ui-btn ui-btn-white table-btn">
+              <img
+                class="ui-btn__img"
+                src="./src/assets/icons/chat_bubble.svg"
+                alt="chat-icon"
+              />
+              Написать
+            </button>
+          </div>
+          <!-- TABLE SECTION END -->
+
+          <!-- TABLE SECTIONS START -->
+          <div class="social-network-section table-cell">
+            <div class="social-block">
+              <img src="./src/assets/images/tiktok-logo.png" alt="tik-tok" />
+            </div>
+          </div>
+          <div class="order-description table-cell">
+            <h2 class="order-description__header">
+              Сделать видео для конечного потребителя
+            </h2>
+            <p class="order-description__description">
+              Здесь часть описания из заказа
+            </p>
+            <div class="order-number-block">
+              <img
+                class="order-number-icon"
+                src="./src/assets/icons/draft_orders.svg"
+                alt="draft_orders_icon"
+              />
+              <span class="order-number">Заказ №83571</span>
+            </div>
+          </div>
+          <div class="influencer-block table-cell">
+            <div class="avatar-block">
+              <img
+                class="influencer-avatar"
+                src="./src/assets/images/Avatar.png"
+                alt="avatar"
+              />
+              <img
+                class="influencer-avatar-social"
+                src="./src/assets/images/tiktok-frame.png"
+                alt="tik-tok"
+              />
+            </div>
+            <div class="influencer-block-info">
+              <div class="influencer-name">
+                <h1 class="influencer-name__header">Karamefa</h1>
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/mdi_check-decagram-green.png"
+                  alt="mark"
+                />
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/mdi_check-decagram-purple.png"
+                  alt="mark"
+                />
+                <img
+                  class="influencer-icon"
+                  src="./src/assets/icons/flag-of-france.png"
+                  alt="france-flag"
+                />
+              </div>
+              <p>Лайфстайл, бьюти, психология...</p>
+            </div>
+          </div>
+          <div class="rating table-cell">
+            <span class="rating-span">Рейтинг</span>
+            <div class="rating-percent">
+              <img
+                class="rating-percent__icon"
+                src="./src/assets/icons/bad-rating.svg"
+                alt="bad-rating"
+              />
+              <h2>15.35%</h2>
+            </div>
+            <div class="rating-bar">
+              <div class="bar">
+                <div class="bar-fill-bad"></div>
+              </div>
+            </div>
+            <div class="members">
+              <img
+                class="members__icon"
+                src="./src/assets/icons/group.svg"
+                alt="group"
+              />
+              <span class="members__count">102</span>
+            </div>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Добавлено</span>
+            <h2 class="date-time">13.12.2024</h2>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Дедлайн</span>
+            <h2 class="date-time">25.12.2024</h2>
+          </div>
+          <div class="date table-cell">
+            <span class="date-title">Бюджет</span>
+            <h2 class="date-time">$ 500</h2>
+          </div>
+          <div class="buttons table-cell">
+            <button class="ui-btn ui-btn-purple table-btn">
+              <img
+                class="ui-btn__img"
+                src="./src/assets/icons/visibility.svg"
+                alt="visibility-icon"
+              />
+              Посмотреть
+            </button>
+            <button class="ui-btn ui-btn-white table-btn">
+              <img
+                class="ui-btn__img"
+                src="./src/assets/icons/chat_bubble.svg"
+                alt="chat-icon"
+              />
+              Написать
+            </button>
+          </div>
+          <!-- TABLE SECTION END -->
+        </div>
+        <div class="table-settings">
+          <div class="filters">
+            <span class="chosen-filters"> Выбранные фильтры:</span>
+            <div class="ui-filter">
+              <img
+                class="ui-filter-img"
+                src="./src/assets/icons/cancel.svg"
+                alt="cancel-icon"
+              />
+              <span class="ui-filter-type">Категория</span>
+              <div class="ui-filter-separation"></div>
+              <span class="ui-filter-name">Интересы</span>
+            </div>
+            <div class="ui-filter">
+              <img
+                class="ui-filter-img"
+                src="./src/assets/icons/cancel.svg"
+                alt="cancel-icon"
+              />
+              <span class="ui-filter-type">Категория</span>
+              <div class="ui-filter-separation"></div>
+              <span class="ui-filter-name">Интересы</span>
+            </div>
+          </div>
+          <div class="settings-selectors">
+            <div class="ui-select-wrap settings-single-selector">
+              <div class="ui-select">
+                <span class="ui-select-name">По убыванию</span>
+                <img
+                  src="./src/assets/icons/expand_more.svg"
+                  alt="expand_more_icon"
+                />
+              </div>
+              <div class="ui-select-options hidden">
+                <ul>
+                  <li class="ui-select-option">По возрастанию</li>
+                </ul>
+              </div>
+            </div>
+            <div class="ui-select-wrap settings-single-selector">
+              <div class="ui-select">
+                <span class="ui-select-name">10 строк</span>
+                <img
+                  src="./src/assets/icons/expand_more.svg"
+                  alt="expand_more_icon"
+                />
+              </div>
+              <div class="ui-select-options hidden">
+                <ul>
+                  <li class="ui-select-option">20 строк</li>
+                  <li class="ui-select-option">50 строк</li>
+                  <li class="ui-select-option">100 строк</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/javascript/select.js"></script>
+    <script src="./src/javascript/buttons.js"></script>
+  </body>
+</html>
